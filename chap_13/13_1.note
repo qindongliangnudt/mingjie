@@ -40,3 +40,9 @@ fclose():
 原型：  int fclose(FILE *stream);
 
 示例程序13_1.c
+
+fscanf:
+与scanf很像，应该说fscanf是更加一般的函数，fscanf的第一个参数指定输入来源的流（通过指向FILE指针），那么如果实参是stdin，则就是指从标准输入流中获得输入（也就是scanf的功能）
+
+fprintf:
+与printf十分型相似，只不过，fprintf更一般，向任何流执行同样的操作
